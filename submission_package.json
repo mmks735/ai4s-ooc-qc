@@ -9,6 +9,8 @@
   "video_local": "outputs/cellwatch_demo.mp4",
   "video_script": "docs/VIDEO_SCRIPT.md",
   "public_repo": "https://github.com/mmks735/ai4s-ooc-qc",
+  "kaggle_notebook": "https://www.kaggle.com/code/mdmahfujulkarim/cellwatch-qc-ai4s-demo",
+  "kaggle_notebook_version": 2,
   "deadline_utc": "2026-10-10T15:59:59Z",
   "entered": true,
   "prepared": true,

@@ -1,7 +1,8 @@
 # CellWatch QC
 
 **Category: Tool & Platform — AI + Organ-on-a-Chip (In Vitro Life Systems)**  
-**Public code:** https://github.com/mmks735/ai4s-ooc-qc
+**Public code:** https://github.com/mmks735/ai4s-ooc-qc  
+**Kaggle reproducibility notebook:** https://www.kaggle.com/code/mdmahfujulkarim/cellwatch-qc-ai4s-demo
 
 CellWatch QC is a small, CPU-only microscopy quality-control system for organ-on-a-chip (OoC) workflows. It turns a grayscale field into an auditable record of focus, contrast, exposure, object count, and an interpretable triage score. The goal is to catch unusable or out-of-focus fields before they enter a downstream organoid / cell-painting analysis; it is not a diagnostic or treatment-response model.
 
