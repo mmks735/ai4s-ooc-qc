@@ -1,0 +1,8 @@
+{
+  "dataset": "BBBC001v1",
+  "images": 6,
+  "count_mae": 32.416666666666664,
+  "count_mape": 0.0870879256785345,
+  "mean_quality_score": 0.5107128840236111,
+  "note": "Counts are a transparent segmentation baseline, not a biological diagnosis."
+}

@@ -1,0 +1,10 @@
+# Raw BBBC001 images are downloaded by the demo and are not redistributed.
+data/BBBC001/*.zip
+data/BBBC001/images/
+outputs/annotated_*.png
+outputs/*.mp4
+!outputs/cellwatch_demo.mp4
+models/*.joblib
+__pycache__/
+*.pyc
+.pytest_cache/

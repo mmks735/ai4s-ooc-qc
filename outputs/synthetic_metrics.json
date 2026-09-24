@@ -1,0 +1,23 @@
+{
+  "samples": 900,
+  "test_samples": 225,
+  "count_mae_units": 2.7395894661922444,
+  "count_mae_normalized": 0.09131964887307481,
+  "focus_accuracy": 1.0,
+  "focus_auc": 1.0,
+  "feature_names": [
+    "object_count",
+    "foreground_fraction",
+    "area_median",
+    "area_iqr",
+    "focus_laplacian",
+    "edge_density",
+    "contrast_std",
+    "background_mean",
+    "intensity_median",
+    "saturated_fraction",
+    "dark_fraction",
+    "otsu_threshold"
+  ],
+  "disclaimer": "Synthetic stress-test metrics are not biological validation."
+}

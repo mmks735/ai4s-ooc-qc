@@ -1,0 +1,35 @@
+{
+  "competition": "ai-4-s-open-innovation-artificial-intelligence-for-life-scien",
+  "category": "Tool & Platform",
+  "title": "CellWatch QC: auditable image triage for organ-on-a-chip workflows",
+  "subtitle": "A local-first, CPU-only microscopy quality gate with interpretable evidence and reproducible stress testing",
+  "summary": "CellWatch QC processes grayscale microscopy fields into object measurements, interpretable focus/contrast/exposure features, overlays, and a bounded quality-triage score. It is designed as an early review queue for OoC image pipelines, not as a diagnosis or biological claim. The public BBBC001v1 smoke test reports count MAE 32.4 objects/image and MAPE 8.71%; a separate synthetic stress test validates the software's response to controlled blur and exposure failures.",
+  "report": "TECHNICAL_REPORT.md",
+  "video": "outputs/cellwatch_demo.mp4",
+  "video_script": "docs/VIDEO_SCRIPT.md",
+  "public_repo": "PENDING_PUBLIC_REPOSITORY_URL",
+  "deadline_utc": "2026-10-10T15:59:59Z",
+  "entered": true,
+  "prepared": true,
+  "submission_channel": "Kaggle Writeup UI; final Submit action requires an authenticated browser session",
+  "data": {
+    "name": "BBBC001v1",
+    "source": "https://bbbc.broadinstitute.org/BBBC001",
+    "license": "CC BY-NC-SA 3.0 (as stated on the BBBC page)",
+    "raw_data_committed": false
+  },
+  "metrics": {
+    "bbc001_images": 6,
+    "bbc001_count_mae": 32.416666666666664,
+    "bbc001_count_mape": 0.0870879256785345,
+    "synthetic_samples": 900,
+    "synthetic_count_mae_units": 2.7395894661922444,
+    "synthetic_focus_accuracy": 1.0,
+    "synthetic_focus_auc": 1.0
+  },
+  "integrity_notes": [
+    "Synthetic metrics are explicitly software stress-test metrics, not biological validation.",
+    "The QC score is a triage heuristic, not a probability of disease or treatment response.",
+    "No private OoC data, patient data, paid API, or proprietary model is required."
+  ]
+}
