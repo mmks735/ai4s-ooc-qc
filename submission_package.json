@@ -11,6 +11,8 @@
   "public_repo": "https://github.com/mmks735/ai4s-ooc-qc",
   "kaggle_notebook": "https://www.kaggle.com/code/mdmahfujulkarim/cellwatch-qc-ai4s-demo",
   "kaggle_notebook_version": 2,
+  "repo_commit": "751c3b1",
+  "video_sha256": "081b4d37fbeb118749d9e26356ad4f20eb9dc9302f6c40dc3a0b8aa83a964bfd",
   "deadline_utc": "2026-10-10T15:59:59Z",
   "entered": true,
   "prepared": true,
