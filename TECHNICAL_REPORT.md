@@ -99,7 +99,7 @@ On 900 generated samples, the held-out synthetic test contained 225 fields. The 
 
 ### 5.3 Demo behaviour
 
-`run_demo.py` creates a short video that alternates each real BBBC field with a controlled Gaussian-blurred version. The real field is shown beside the detection overlay and QC score; the stress frame makes the quality gate visible rather than asking the viewer to trust a static table. The video is a demonstration of the actual local code, not a mock-up or a pre-rendered claim.
+`run_demo.py` creates a short video that alternates each real BBBC field with a controlled Gaussian-blurred version. The real field is shown beside the detection overlay and QC score; the stress frame makes the quality gate visible rather than asking the viewer to trust a static table. The video is a demonstration of the actual local code, not a mock-up or a pre-rendered claim. A public copy is available at <https://raw.githubusercontent.com/mmks735/ai4s-ooc-qc/master/outputs/cellwatch_demo.mp4>.
 
 ## 6. Reliability, limitations, and risk controls
 

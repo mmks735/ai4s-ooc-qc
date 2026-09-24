@@ -57,6 +57,8 @@ The raw BBBC001 images are downloaded at runtime and are intentionally not commi
 - `annotated_*.png` — detection overlays
 - `cellwatch_demo.mp4` — short actual-system demo (under five minutes)
 
+The checked demo video is publicly available at: <https://raw.githubusercontent.com/mmks735/ai4s-ooc-qc/master/outputs/cellwatch_demo.mp4>
+
 ## Data, licensing and compliance
 
 The demo downloads the BBBC001v1 TIFF archive and count file from the Broad Institute. The BBBC page identifies the image set as licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC BY-NC-SA 3.0)** and asks users to cite the BBBC collection and the Carpenter et al. study. See:
