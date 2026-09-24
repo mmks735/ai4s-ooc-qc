@@ -1,0 +1,11 @@
+{
+  "id": "mdmahfujulkarim/cellwatch-qc-ai4s-demo",
+  "title": "CellWatch QC AI4S Demo",
+  "code_file": "cellwatch-qc-ai4s-demo.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "true"
+}
