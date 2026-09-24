@@ -73,8 +73,17 @@ def segment_nuclei(
     # Keep the baseline conservative: BBBC001 nuclei are already separated and
     # aggressive opening/closing can split or merge valid objects.  Callers can
     # opt into smoothing for noisier channels via ``smooth_sigma``.
-    mask = morphology.remove_small_objects(mask, max_size=max(0, min_area - 1))
-    mask = morphology.remove_small_holes(mask, max_size=max(0, min_area - 1))
+    # scikit-image 0.22 uses ``min_size``/``area_threshold`` while newer
+    # releases renamed the bounds to ``max_size``.  Keep the same semantics on
+    # both versions so the public Kaggle notebook is reproducible.
+    try:
+        mask = morphology.remove_small_objects(mask, max_size=max(0, min_area - 1))
+    except TypeError:  # pragma: no cover - exercised on older Kaggle images
+        mask = morphology.remove_small_objects(mask, min_size=min_area)
+    try:
+        mask = morphology.remove_small_holes(mask, max_size=max(0, min_area - 1))
+    except TypeError:  # pragma: no cover - exercised on older Kaggle images
+        mask = morphology.remove_small_holes(mask, area_threshold=min_area)
     labels = measure.label(mask, connectivity=2)
     props = []
     for prop in measure.regionprops(labels, intensity_image=work):
