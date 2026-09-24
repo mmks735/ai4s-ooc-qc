@@ -7,7 +7,7 @@
   "report": "TECHNICAL_REPORT.md",
   "video": "outputs/cellwatch_demo.mp4",
   "video_script": "docs/VIDEO_SCRIPT.md",
-  "public_repo": "PENDING_PUBLIC_REPOSITORY_URL",
+  "public_repo": "https://github.com/mmks735/ai4s-ooc-qc",
   "deadline_utc": "2026-10-10T15:59:59Z",
   "entered": true,
   "prepared": true,

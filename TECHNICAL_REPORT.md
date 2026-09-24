@@ -3,7 +3,7 @@
 **Category declaration:** Tool & Platform — AI + Organ-on-a-Chip (In Vitro Life Systems)  
 **Author:** Md. Mahfujul Karim (`mdmahfujulkarim`)  
 **Date:** 24 September 2026  
-**Code repository:** the public repository created from this package (link inserted after the first push)
+**Code repository:** https://github.com/mmks735/ai4s-ooc-qc
 
 ## Abstract
 
